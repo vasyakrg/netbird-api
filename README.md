@@ -1,5 +1,9 @@
 # NetBird API IaC
 
+скрипты для взаимодействия с сервис-мешем [netbird.io](https://netbird.io) через принцип "инфрастраструктуры как код"
+
+![NetBird](netbird.png)
+
 ## Требования
 
 - Python 3.8+
