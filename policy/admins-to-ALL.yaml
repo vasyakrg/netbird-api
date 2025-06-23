@@ -1,0 +1,14 @@
+- name: admins-to-c-home-vlan15
+  description: admins в home-vlan15
+  enabled: true
+  rules:
+    - name: u-devops-to-c-home-vlan15
+      description: всё из devops в home-vlan15
+      enabled: true
+      action: accept
+      bidirectional: true
+      protocol: all
+      sources:
+        - u-devops
+      destinationResource:
+        - c-home-vlan15

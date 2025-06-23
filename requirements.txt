@@ -1,0 +1,6 @@
+requests
+pyyaml
+python-dotenv
+networkx
+matplotlib
+numpy

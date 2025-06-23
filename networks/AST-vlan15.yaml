@@ -1,0 +1,7 @@
+name: AST-vlan15
+policies:
+  - u-devops-to-c-AST-vlan15
+resources:
+  - c-AST-vlan15
+routes:
+  - u-devops-to-c-AST-vlan15

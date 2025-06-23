@@ -1,0 +1,6 @@
+- name: admin
+  email: vasyakrg@gmail.com
+  role: owner
+  is_blocked: false
+  auto_groups:
+    - u-devops

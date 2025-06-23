@@ -1,0 +1,14 @@
+name: zabbix-to-ALL
+description: всё из zabbix в All
+enabled: true
+rules:
+  - name: ALL-to-c-home-vlan15-g-ZABBIX
+    description: всё из All в c-home-vlan15-g-ZABBIX
+    enabled: true
+    action: accept
+    bidirectional: true
+    protocol: all
+    sources:
+      - All
+    destinationResource:
+      - c-home-vlan15-g-ZABBIX

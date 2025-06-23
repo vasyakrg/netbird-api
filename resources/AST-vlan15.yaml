@@ -1,0 +1,11 @@
+- name: c-home-vlan15
+  enabled: true
+  address: "192.168.15.0/24"
+  groups:
+    - c-Home
+
+- name: c-home-vlan15-r-ZABBIX
+  enabled: true
+  address: "192.168.15.11/32"
+  groups:
+    - c-home-vlan15-g-ZABBIX

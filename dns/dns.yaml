@@ -1,0 +1,15 @@
+name: main-recursor
+description: main-recursor
+primary: false
+search_domains_enabled: true
+domains:
+  - "realmanual.io"
+nameservers:
+  - ip: 172.0.0.1
+    ns_type: udp
+    port: 53
+  - ip: 172.0.0.2
+    ns_type: udp
+    port: 53
+groups:
+  - All

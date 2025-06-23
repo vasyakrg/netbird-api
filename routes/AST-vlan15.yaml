@@ -1,0 +1,6 @@
+name: c-home-vlan15
+enabled: true
+metric: 9999
+masquerade: true
+peer_groups:
+  - c-Home

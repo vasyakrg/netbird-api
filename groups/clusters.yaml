@@ -1,0 +1,4 @@
+- name: c-Home
+  peers:
+    - c-Home-peer1
+    - c-Home-peer2
